@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education - Dilan Lakshan</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Black background */
+            color: #ffffff; /* White text */
+            scroll-behavior: smooth;
+            animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #ff336e; /* Rose header */
+        }
+        header h1 {
+            margin: 0;
+            color: #ffffff;
+        }
+        nav {
+            text-align: center;
+            font-weight: bold;
+            margin: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #ff336e; /* Rose text for links */
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #ffffff; /* White hover effect */
+        }
+        .content {
+            text-align: center;
+            padding: 20px 20px;
+        }
+        .content h2 {
+            margin-bottom: 4px;
+            color: #ff336e; /* Rose headings */
+        }
+        .content p {
+            font-size: 16px;
+            margin: 5px 0;
+            color: #ffffff;
+        }
+        .education-box {
+            width: 500px;
+            padding: 15px;
+			height: 85px;
+            background-color: #232423; /* Dark gray background */
+            border-radius: 10px;
+            box-shadow: 0px 6px 10px #5e6063;
+            margin: 20px auto;
+        }
+		.education-boxx {
+            width: 500px;
+            padding: 15px;
+			height: 130px;
+            background-color: #232423; /* Dark gray background */
+            border-radius: 10px;
+            box-shadow: 0px 6px 10px #5e6063;
+            margin: 10px auto;
+        }
+		.education-boxxx {
+            width: 500px;
+            padding: 15px;
+			height: 107px;
+            background-color: #232423; /* Dark gray background */
+            border-radius: 10px;
+            box-shadow: 0px 6px 10px #5e6063;
+            margin: 20px auto;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #ff336e; /* Rose footer */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Education</h1>
+    </header>
+    <nav>
+        <a href="dilan1.html">Home</a>
+        <a href="about.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="services.html">Service</a>
+		<a href="contact.html">Contact</a>
+    </nav>
+    <div class="content">
+        <div class="education-box" data-aos="fade-up">
+            <h2>NSBM Green University</h2>
+            <p>BSc in Management and Information Systems (Special)</p>
+            <p>(2023 - 2027)</p>
+        </div>
+        <div class="education-boxx" data-aos="fade-up" data-aos-delay="200">
+            <h2>KG / Mahanaga M.V</h2>
+            <p>Advanced Level - Physical Science</p>
+            <p>Combined Mathematics - C</p>
+            <p>Chemistry - C</p>
+            <p>Physics - C</p>
+        </div>
+        <div class="education-boxxx" data-aos="fade-up" data-aos-delay="400">
+            <h2>KG / Beligala Bodhiraja M.V</h2>
+            <p>Ordinary Level</p>
+            <p>Mathematics - A</p>
+            <p>Science - B</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Dilan Lakshan. All Rights Reserved.
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Initialize AOS with smooth animation settings
+        AOS.init({
+            offset: 0, 
+            duration: 2000, 
+            easing: 'ease-in-out', 
+            once: true,
+        });
+    </script>
+</body>
+</html>

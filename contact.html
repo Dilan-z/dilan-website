@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Dilan Lakshan</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Black background */
+            color: #ffffff; /* White text */
+            scroll-behavior: smooth;
+            animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #ff336e; /* Rose header */
+        }
+        header h1 {
+            margin: 0;
+            color: #ffffff;
+        }
+        nav {
+            text-align: center;
+            background-color: black; /* Dark background for nav bar */
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            text-decoration: none;
+            color: #ff336e; /* Rose links */
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffffff; /* White hover effect */
+        }
+        .content {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .content h2 {
+            margin-bottom: 16px;
+            color: #ff336e; /* Rose headings */
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .social-links a {
+            font-size: 24px;
+            color: #ff336e; /* Rose icons */
+            text-decoration: none;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #ffffff;
+            transform: scale(1.2); /* Icon scaling effect on hover */
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #ff336e; /* Rose footer */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color: #ffffff;
+        }
+		.box {
+            width: 500px;
+            padding: 15px;
+			height: 160px;
+            background-color: #232423; /* Dark gray background */
+            border-radius: 10px;
+            box-shadow: 0px 6px 10px #5e6063;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+    </header>
+    <nav>
+        <a href="dilan1.html">Home</a>
+        <a href="about.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="content">
+		 <div class="box" data-aos="fade-up">
+        <h2>Get in Touch</h2>
+        <p>Feel free to reach out through any of the platforms below:</p>
+        <div class="social-links">
+			
+            <!-- Contact Number -->
+            <a href="tel:+94769498321" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                <i class="fa-solid fa-phone"></i>
+            </a>
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/share/1F5BEKt6zo/?mibextid=LQQJ4d" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <!-- WhatsApp -->
+            <a href="https://wa.me/+94769498321" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/dilan-lakshan-68a30029b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <!-- Email -->
+            <a href="mailto:dilan022k@gmail.com" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Dilan Lakshan. All Rights Reserved.
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Initialize AOS animations
+        AOS.init({
+            offset: 0,
+            duration: 2000,
+            easing: 'ease-in-out',
+            once: true,
+        });
+    </script>
+</body>
+</html>
